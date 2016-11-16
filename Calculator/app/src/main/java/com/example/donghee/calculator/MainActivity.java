@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         Button btn1 = (Button) findViewById(R.id.button1);
+        Button btn2 = (Button) findViewById(R.id.button2);
+        Button btn3 = (Button) findViewById(R.id.button3);
+        Button btn4 = (Button) findViewById(R.id.button4);
         resultView = (TextView) findViewById(R.id.textView);
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +30,18 @@ public class MainActivity extends AppCompatActivity {
                 int num1 = Integer.parseInt(edit1.getText().toString());
                 int num2 = Integer.parseInt(edit2.getText().toString());
                 int result = num1 + num2;
+                resultView.setText("계산 결과 : "+result);
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText edit1 = (EditText) findViewById(R.id.editText1);
+                EditText edit2 = (EditText) findViewById(R.id.editText2);
+                int num1 = Integer.parseInt(edit1.getText().toString());
+                int num2 = Integer.parseInt(edit2.getText().toString());
+                int result = num1 - num2;
                 resultView.setText("계산 결과 : "+result);
             }
         });
