@@ -8,5 +8,5 @@
 
 곱하기<br><img src='https://github.com/fbwkzl333/homework7/blob/master/Calculator/app/src/main/res/image/Screenshot_1479291162.png'><br>
 
-나누기<br><img src='https://github.com/fbwkzl333/homework7/blob/master/Calculator/app/src/main/res/image/Screenshot_1479291199.png><br>
+나누기<br><img src='https://github.com/fbwkzl333/homework7/blob/master/Calculator/app/src/main/res/image/Screenshot_1479291199.png'><br>
 
