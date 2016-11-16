@@ -45,5 +45,17 @@ public class MainActivity extends AppCompatActivity {
                 resultView.setText("계산 결과 : "+result);
             }
         });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText edit1 = (EditText) findViewById(R.id.editText1);
+                EditText edit2 = (EditText) findViewById(R.id.editText2);
+                int num1 = Integer.parseInt(edit1.getText().toString());
+                int num2 = Integer.parseInt(edit2.getText().toString());
+                int result = num1 * num2;
+                resultView.setText("계산 결과 : "+result);
+            }
+        });
     }
 }
